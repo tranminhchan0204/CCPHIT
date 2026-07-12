@@ -1,0 +1,28 @@
+# Ignore all downloaded GIS data
+Project/Data/
+
+# Ignore ArcGIS geodatabases
+*.gdb/
+
+# Ignore ArcGIS cache and logs
+**/Index/
+**/GpMessages/
+**/ImportLog/
+**/.backups/
+
+# Ignore raster files
+*.tif
+*.tiff
+*.img
+
+# Ignore auxiliary files
+*.aux.xml
+*.ovr
+*.rrd
+
+# Ignore Python files
+__pycache__/
+*.pyc
+
+# Ignore VS Code
+.vscode/
